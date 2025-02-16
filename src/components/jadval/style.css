@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+form {
+  display: flex;
+  justify-content: space-around;
+  background: antiquewhite;
+  width: 500px;
+  align-items: center;
+  margin: auto;
+  margin-top: 200px;
+  height: 400px;
+  border-radius: 10px;
+
+  select {
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    border: 1.2px solid black;
+    padding: 15px;
+    font-weight: 700;
+  }
+  button{
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: gold;
+    cursor: pointer;
+  }
+
+
+
+}
